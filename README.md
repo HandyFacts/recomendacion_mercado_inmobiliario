@@ -3,4 +3,4 @@ Proyecto educativo sobre un sistema de recomendación por parte de una consultor
 
 HOLA!!!! 😎
 
-Ivan
+Ivan Rojas
