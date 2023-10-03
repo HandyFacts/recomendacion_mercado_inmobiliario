@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock styles %}
+{% block title %}Log in{% endblock title %}
+{% block content %}
+<img src="{% static 'img/fondo-login.jpg' %}" class="bg-login" alt="background" style="object-fit: fill;">
+<div class="wrapper">
+    {% if 'register' in request.GET %}
+    <p style="color:green">User register successfuly</p>
+    {% endif %}
+    <form action="" method="post">{% csrf_token %}
+        <h1>Login</h1>
+        {% if form.non_field_errors %}
+            <p style="color:red">User or password incorrect</p>
+        {% endif %}
+        <div class="input-box">
+            <input type="text" name="username" placeholder="Username" autofocus maxlength="254" required
+            id="id_username">
+        </div>
+        <div class="input-box">
+            <input type="password" name="password" placeholder="Password" required
+            id="id_password">
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">Remember me</label>
+            <a href="">Forgot a password?</a>
+        </div>
+        <input type="submit" class="btn" value="Access">
+        <div class="register-link">
+            <p>Don't have an account <a href="{% url 'signup' %}">Register</a></p>
+        </div>
+    </form>
+</div>
+{% endblock content %}

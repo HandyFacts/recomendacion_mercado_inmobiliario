@@ -1,0 +1,19 @@
+{% load static %}
+
+<nav>
+    <img src="{% static 'img/logo.png' %}" alt="logo" class="logo">
+    <ul>
+        <li><a href="{% url 'handy-facts:home' %}" class="change" 
+            data-swup-transition="left">Home</a></li>
+        <li><a href="#" class="change" 
+            data-swup-transition="left">Products</a></li>
+        <li><a href="{% url 'handy-facts:about' %}" class="change" 
+            data-swup-transition="left">About us</a></li>
+        <li><a href="https://github.com/HandyFacts/recomendacion_mercado_inmobiliario" class="change">Github</a></li>
+        {% if not request.user.is_authenticated %}
+        <li><a href="{% url 'login' %}" class="sing-in change" >Log in</a></li>
+        {% else %}
+        <li><a href="{% url 'logout' %}" class="sing-in change" >Log out</a></li>
+        {% endif %}
+    </ul>
+</nav>
