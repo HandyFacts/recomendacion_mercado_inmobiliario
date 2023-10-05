@@ -1,0 +1,538 @@
+city,year_built
+Abilene,46.82
+Agassiz,137.0
+Agua Dulce,73.0
+Airport Hill,41.0
+Akron,81.53
+Albuquerque,37.85
+Alexander,11.0
+Alexandria,52.67
+Allentown,88.21
+Alta Loma,36.5
+Amarillo,41.36
+Anaheim,51.34
+Anchorage,37.86
+Ann Arbor,52.28
+Antelope,23.0
+Antioch,43.27
+Apex,12.75
+Archdale,18.0
+Arleta,69.0
+Arlington,43.98
+Arvada,41.74
+Athens,36.87
+Atlanta,50.69
+Augusta,51.23
+Aurora,41.46
+Austin,28.86
+Bakersfield,42.93
+Baltimore,91.25
+Baton Rouge,28.73
+Bayside,69.0
+Beacon Hill,124.0
+Beaumont,40.4
+Bellevue,40.55
+Berkeley,92.75
+Billings,43.69
+Birmingham,56.71
+Bloomington,29.0
+Bogart,37.5
+Boise,33.67
+Bonita,54.0
+Boone,
+Boston,112.79
+Brentwood,24.0
+Bridgeport,84.84
+Brighton,48.0
+Bronxville,60.0
+Brooklyn,74.0
+Brooklyn Park,69.5
+Broomfield,29.25
+Brownsville,27.53
+Burbank,70.92
+Caledonia,82.0
+Cambridge,104.2
+Cambridgeport,190.0
+Campbell,61.0
+Canal Winchester,18.5
+Canyon Country,39.33
+Carlsbad,35.7
+Carnegie,123.0
+Carrollton,33.92
+Cary,23.46
+Catonsville,83.0
+Cave Creek,23.0
+Cedar Rapids,55.05
+Centennial,37.51
+Center Point,
+Chandler,26.18
+Chapel Hill,22.0
+Charleston,42.64
+Charlestown,130.5
+Charlestown's Navy Yard,103.0
+Charlotte,26.87
+Chatsworth,55.0
+Chattanooga,49.32
+Chesapeake,34.25
+Cheviot,128.0
+Chicago,56.06
+Chinatown,124.0
+Choctaw,16.0
+Chugiak,25.67
+Chula Vista,33.33
+Cincinnati,80.23
+City of Orange Township,100.0
+Clarksville,29.24
+Clay,24.0
+Clearwater,45.93
+Clearwater Beach,45.5
+Cleveland,89.09
+Cleveland Heights,86.0
+Cockrell Hill,
+Coconut Grove,21.0
+Colerain Twp,64.0
+College Park,35.5
+Colorado Springs,39.98
+Columbia,38.82
+Columbus,59.82
+Concord,56.22
+Cooper City,28.25
+Coral Springs,36.25
+Corona,32.05
+Corpus Christi,41.36
+Costa Mesa,50.42
+Cranston,93.0
+Culver City,56.0
+Cuyahoga Falls,30.0
+Dallas,51.26
+Dalworthington Gardens,33.0
+Daly City,60.99
+Dania Beach,52.0
+Daniel Island,13.38
+Dayton,66.65
+Del Aire,76.0
+Del Valle,15.0
+Denton,27.2
+Denver,48.31
+Des Moines,75.58
+Detroit,81.62
+Devore Heights,74.0
+Dexter City,
+Diamond Bar,58.0
+Dorchester's Ashmont,84.0
+Dorchester's Meeting House Hill,103.0
+Downey,63.47
+Dundalk,72.0
+Dunlap,8.0
+Durham,34.4
+Eagle River,29.58
+East Boston's Orient Heights,103.0
+East Cambridge,101.0
+East Grand Rapids,87.5
+Eastchester,5.0
+Eastvale,13.5
+Edina,65.0
+Edinburg,7.67
+Edmond,13.11
+Edwards,13.0
+Eight Mile,66.0
+El Monte,50.63
+El Paso,29.02
+El Sobrante,41.0
+Elgin,40.8
+Elizabeth,57.0
+Elizabeth City,72.0
+Elk Grove,23.64
+Emeryville,18.0
+Encino,29.67
+Englewood,36.67
+Erie,77.75
+Escondido,39.68
+Essex,
+Eugene,49.04
+Evansville,60.7
+Everett,53.81
+Fairfield,37.64
+Fairview,21.33
+Fairview Park,60.0
+Fargo,51.0
+Fayetteville,43.42
+Fenton,52.67
+Flint,76.12
+Fontana,34.27
+Fort Collins,33.02
+Fort Lauderdale,45.08
+Fort Wayne,48.93
+Fort Worth,28.39
+Fortson,5.0
+Fremont,44.74
+Fresno,47.72
+Frisco,17.21
+Fullerton,55.68
+Fultondale,56.0
+Gainesville,39.29
+Galloway,25.0
+Garden City,39.0
+Garden Grove,54.71
+Garfield Heights,86.0
+Garland,43.03
+Genesee,67.0
+Gilbert,20.36
+Glendale,52.05
+Granada Hills,49.0
+Grand Prairie,35.85
+Grand Rapids,64.19
+Green Bay,58.33
+Greenfield,45.5
+Greensboro,44.44
+Gresham,41.56
+Grove City,34.25
+Gurley,36.0
+Gwynn Oak,82.0
+Halethorpe,70.0
+Haltom City,74.0
+Hamden,103.0
+Hampton,54.5
+Harborcreek,71.0
+Harlingen,84.0
+Hartford,97.29
+Harvard Square,83.17
+Hawthorne,17.0
+Hayward,44.62
+Henderson,9.06
+Henrico,41.55
+Hephzibah,43.75
+Hermitage,40.0
+Hialeah,43.88
+Hialeah Gardens,35.0
+High Point,46.11
+Highland,44.5
+Hill McKnight,108.0
+Hilliard,34.5
+Hixson,46.62
+Hollywood,54.17
+Holt,59.0
+Honolulu,42.99
+Hoover,42.67
+Hopkins,14.0
+Horizon City,3.0
+Houston,42.43
+Huber Heights,45.0
+Huntington Beach,45.71
+Huntsville,44.67
+Hyde Park,90.5
+Independence,71.24
+Indian Orchard,53.0
+Indianapolis,53.63
+Inglewood,65.72
+Irondale,66.0
+Irvine,23.3
+Irving,44.22
+Jackson,40.33
+Jacksonville,39.46
+Jamaica Plain,109.0
+Jamestown,23.0
+Jersey City,85.64
+Joelton,0.0
+Johns Island,17.6
+Joliet,52.48
+Jones,0.0
+Jurupa Valley,33.25
+Kansas City,79.03
+Kennedale,23.0
+Kentwood,34.5
+Kernersville,16.67
+Kettering,81.5
+Killeen,25.16
+Knoxville,45.88
+Kutztown,63.0
+La Crescenta,64.67
+La Jolla,39.29
+Lacy Lakeview,63.0
+Lafayette,18.0
+Lake Balboa,73.0
+Lake Los Angeles,35.0
+Lake Worth,25.0
+Lakewood,44.91
+Lancaster,38.75
+Lansing,77.13
+Laredo,28.25
+Las Vegas,27.99
+Lauderhill,15.0
+Laveen,12.67
+Leawood,26.0
+Lennox,76.67
+Lexington,47.41
+Lincoln,61.61
+Little Rock,48.98
+Littleton,51.0
+Lodi Township,24.0
+Long Beach,64.88
+Los Angeles,63.21
+Louisville,41.16
+Lowell,82.45
+Lubbock,36.42
+Lupton City,98.0
+Lyndhurst,59.0
+Mabelvale,51.0
+Macomb Township,59.0
+Madeira,56.0
+Madison,55.39
+Manchaca,4.0
+Manchester,79.57
+Manor,
+Maplewood,56.0
+Marion Township,37.0
+Matthews,25.0
+Mayfield Heights,63.0
+McAllen,30.0
+McKinney,21.77
+McLeansville,9.67
+Memphis,57.72
+Mesa,29.37
+Mesquite,47.65
+Metairie,57.5
+Miami,43.55
+Miami Gardens,53.11
+Miami Lakes,25.0
+Middle River,101.0
+Middleburg Heights,32.33
+Midland,30.04
+Midtown,16.5
+Midwest City,56.0
+Mill Creek,40.0
+Millcreek,33.5
+Milwaukee,76.41
+Minneapolis,86.16
+Mint Hill,
+Miramar,31.95
+Mission,
+Mobile,42.43
+Modesto,53.26
+Montgomery,48.53
+Moreno Valley,32.45
+Morrisville,4.0
+Mount Healthy,75.0
+Mount Morris Township,63.0
+Mundy Township,33.67
+Murfreesboro,25.56
+Murrieta,23.71
+Mustang,0.33
+Naperville,35.0
+Nashville,42.94
+Nassau Bay,45.0
+Neighborhood 9,109.0
+New Albany,21.0
+New Franklin,
+New Haven,94.66
+New Hope,39.0
+New River,18.0
+Newalla,25.0
+Newark,85.38
+Newbury Park,41.2
+Newhall,49.45
+Newport Beach,37.0
+Newport News,45.91
+Norfolk,60.77
+Norman,32.44
+North Cambridge,6.0
+North Charleston,66.67
+North Chesterfield,
+North Hollywood,75.0
+North Las Vegas,20.15
+North Lauderdale,44.0
+North Providence,39.0
+North Richland Hills,49.0
+North Richmond,20.0
+North Tustin,55.89
+Northfield Township,42.0
+Northridge,49.67
+Norwalk,64.14
+Nottingham,67.0
+Oakland,90.4
+Oakland Park,64.5
+Oceanside,39.25
+Okemos,10.0
+Oklahoma City,48.0
+Olathe,46.69
+Omaha,24.28
+Ontario,36.73
+Opa Locka,72.0
+Orange,49.27
+Orlando,35.57
+Oro Valley,13.0
+Overland Park,46.23
+Owens Cross Roads,13.12
+Oxnard,39.78
+Pacific Palisades,-1.0
+Palm Bay,25.06
+Palmdale,33.78
+Palmhurst,2.0
+Parkland,10.0
+Parkville,36.0
+Parma,55.83
+Parma Heights,75.0
+Pasadena,60.72
+Paterson,74.58
+Pawtucketville,88.0
+Pearland,5.0
+Pegram,40.0
+Pembroke Pines,34.12
+Peoria,38.66
+Pfafftown,25.0
+Pflugerville,6.0
+Pgh,123.0
+Phillips Ranch,41.25
+Phoenix,37.12
+Piffard,55.38
+Pike Road,43.0
+Pikesville,30.0
+Pine Point Bstn Rd,87.5
+Pinecrest,69.0
+Pittsburgh,76.53
+Pittsfield Township,23.67
+Plainfield,23.92
+Plano,36.18
+Plum,44.0
+Pomona,56.95
+Port Isabel,32.83
+Port Saint Lucie,23.44
+Port Wentworth,42.0
+Porter Ranch,27.5
+Portland,57.19
+Providence,84.38
+Provo,38.14
+Pueblo,76.88
+Pueblo West,29.0
+Quartz Hill,37.33
+Quinsigamond Valley,71.0
+Raleigh,26.8
+Rancho Cucamonga,37.11
+Redondo Beach,65.5
+Reno,32.58
+Retsof,68.5
+Rialto,70.0
+Richfield,63.0
+Richmond,63.64
+Riverside,44.3
+Rochester,63.61
+Rockford,67.11
+Roosevelt,
+Rosedale,54.67
+Roseville,26.7
+Roslindale,89.5
+Sacramento,51.54
+Saint Anthony,45.0
+Saint Louis Park,57.0
+Saint Lucie West,18.0
+Saint Paul,85.86
+Salem,43.1
+Salinas,50.36
+Salisbury,37.0
+Salt Lake City,64.43
+San Antonio,37.49
+San Bernardino,61.63
+San Diego,45.04
+San Francisco,82.45
+San Jose,45.72
+San Pedro,74.5
+Sandy Springs,12.0
+Santa Ana,59.13
+Santa Clara,52.15
+Santa Clarita,26.0
+Santa Monica,76.0
+Santa Rosa,40.52
+Saugus,37.31
+Savannah,53.73
+Scio Township,26.0
+Scottsdale,30.0
+Seabrook,19.0
+Seattle,50.14
+Shadow Hills,105.0
+Sharonville,32.0
+Sherman Oaks,59.75
+Shorewood,105.0
+Shreveport,41.72
+Simi Valley,42.09
+Sioux Falls,41.62
+So End Central,68.0
+South Bend,76.31
+South Boston,84.75
+South Euclid,56.0
+South Whitehall Township,27.6
+Spencer,0.0
+Spokane,59.08
+Springfield,67.76
+Stamford,61.21
+Sterling Heights,43.18
+Stockton,52.66
+Studio City,67.0
+Summerfield,26.0
+Sun City,24.5
+Sun Valley,80.33
+Sunnyvale,48.8
+Superior Township,
+Surprise,15.23
+Sylmar,34.5
+Tacoma,71.89
+Tallahassee,33.43
+Tampa,42.33
+Tarzana,51.5
+Temecula,25.6
+Tempe,45.39
+The Village,61.0
+Thornton,26.27
+Thousand Oaks,43.95
+Toledo,86.97
+Tolleson,21.0
+Topeka,60.79
+Torrance,54.86
+Towson,69.0
+Tuckahoe,35.0
+Tucson,40.64
+Tulsa,52.68
+University Park,89.0
+University Place,43.0
+Upper Macungie Township,34.5
+Valencia,34.4
+Vallejo,55.67
+Valley Village,32.0
+Van Nuys,82.0
+Vancouver,33.22
+Ventura,48.22
+Verdi,3.0
+Verona,6.33
+Vestavia Hills,11.0
+Victorville,32.42
+Virginia Beach,41.56
+Visalia,37.31
+Waco,54.17
+Wadsworth,115.0
+Walnut,66.0
+Warren,61.29
+Washington,76.71
+Waterbury,78.09
+Wesleyville,98.0
+West Allis,90.5
+West Covina,56.43
+West Jordan,29.18
+West Roxbury,90.75
+West Valley City,41.33
+Westerville,22.67
+Westlake Village,44.1
+Westminster,37.65
+Wichita,64.64
+Wichita Falls,50.07
+Wilmington,43.19
+Windsor Mill,25.0
+Winston Salem,40.97
+Winter Park,67.0
+Winterville,
+Woodland Hills,56.75
+Woodway,26.33
+Worcester,83.12
+Worthington,41.5
+Wyoming,59.5
+Yonkers,73.76
+York,158.0
+Yukon,7.6
