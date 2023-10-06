@@ -95,7 +95,7 @@
 - Data Warehouse
   - Creacion [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
   - Automatización
-  - Proceso de carga ingremental [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#6-carga-incremental)
+  - Proceso de carga ingremental [👉click acá](https://www.youtube.com/watch?v=h3lyDb4eENY&feature=youtu.be)
   - Proceso de análisis de datos
 - Conexión de datos con Dashboard
 - Conexión de datos con modelo ML
