@@ -63,8 +63,11 @@
 
 ![stack-tecnologico](data_analysis/src/images/stack-tecnologico.gif)
 - Data engineering [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-stack-tecnologico-data-engineering#tabla-de-contenidos)
+![pendiente(2)](data_analysis/src/images/pendiente(2).jpg)
 - Data science [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/3-stack-tecnologico-data-science#tabla-de-contenidos)
+![pendiente(2)](data_analysis/src/images/pendiente(2).jpg)
 - Data analysis [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/4-stack-tecnologico-data-analysis#tabla-de-contenidos)
+![pendiente(2)](data_analysis/src/images/pendiente(2).jpg)
 <br>
 
 ![trabajando_los_datos](data_analysis/src/images/trabajando_los_datos.gif)
@@ -79,6 +82,7 @@
 - Diagrama de arquitectura propuesta
   - Modelo ER de los datos 👉click acá
   - pipelines para alimentacion de DW 👉click acá
+![pendiente(2)](data_analysis/src/images/pendiente(2).jpg)
 - Data Warehouse
   - Creacion 👉click acá
   - Automatización 👉click acá
