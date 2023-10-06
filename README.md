@@ -1,9 +1,3 @@
-<style>
-body {
-    background-color: white;
-}
-</style>
-
 ![handyfacts](data_analysis/src/images/handyfacts.jpg)
 
 ![handyfacts(4)](data_analysis/src/images/handyfacts(4).png)
