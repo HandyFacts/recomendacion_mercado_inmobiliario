@@ -50,18 +50,17 @@
     - KPI 4 [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#54-%C3%ADndice-de-retorno-de-inversi%C3%B3n-roi-en-predicciones)
 <br>
 
-
-![cronograma](data_analysis/src/images/cronograma.gif)
+![cronograma](data_analysis/src/images/cronograma(2).gif)
   - Por etapa [👉click acá](https://github.com/orgs/HandyFacts/projects/2/views/3)
   - Por equipo [👉click acá](https://github.com/orgs/HandyFacts/projects/2/views/10)
   - Por integrante [👉click acá](https://github.com/orgs/HandyFacts/projects/2/views/8)
 <br>
 
-![gestion-documental](data_analysis/src/images/gestion-documental.gif)
+![gestion-documental](data_analysis/src/images/gestion-documental(2).gif)
 - Documentación [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki)
 <br>
 
-![stack-tecnologico](data_analysis/src/images/stack-tecnologico.gif)
+![stack-tecnologico](data_analysis/src/images/stack-tecnologico(2).gif)
 - Data engineering [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-stack-tecnologico-data-engineering#tabla-de-contenidos)
 
   ![image](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=Composer&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -80,7 +79,7 @@
 - Herramientas de comunicación  
   ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white) ![Google Meet](https://img.shields.io/badge/Google%20Meet-00897B?style=for-the-badge&logo=google-meet&logoColor=white) ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
-![trabajando_los_datos](data_analysis/src/images/trabajando_los_datos.gif)
+![trabajando_los_datos](data_analysis/src/images/trabajando_los_datos(2).gif)
 
 - EDA preliminar
   - Dataset "sales_count_month" [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/ETLs/ETL_demanda.ipynb)
