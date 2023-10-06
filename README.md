@@ -31,7 +31,7 @@
 
 ![inmobiliario(3)](data_analysis/src/images/inmobiliario(3).png)
 
-![product-backlog](data_analysis/src/images/product-backlog.gif)
+![product-backlog](data_analysis/src/images/product-backlog(2).gif)
   - Contexto [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#1-contexto)
   - Propuesta [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#2-propuesta)
   - Objetivos
