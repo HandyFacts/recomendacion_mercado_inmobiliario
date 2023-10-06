@@ -65,3 +65,24 @@
 - Data engineering [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-stack-tecnologico-data-engineering#tabla-de-contenidos)
 - Data science [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/3-stack-tecnologico-data-science#tabla-de-contenidos)
 - Data analysis [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/4-stack-tecnologico-data-analysis#tabla-de-contenidos)
+<br>
+
+![trabajando_los_datos](data_analysis/src/images/trabajando_los_datos.gif)
+
+- EDA preliminar
+  - Dataset "sales_count_month" [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/ETLs/ETL_demanda.ipynb)
+  - Dataset "houses_for_sale" [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/ETLs/ETL_houses_for_sale.ipynb)
+  - Dataset "houses_sold" [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/ETLs/ETL_houses_sold.ipynb)
+  - Dataset "prices_per_city" [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/ETLs/ETL_prices_per_city.ipynb)
+
+- Diccionario de datos [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/4-diccionario-de-datos)
+- Diagrama de arquitectura propuesta
+  - Modelo ER de los datos 👉click acá
+  - pipelines para alimentacion de DW 👉click acá
+- Data Warehouse
+  - Creacion 👉click acá
+  - Automatización 👉click acá
+  - Proceso de carga ingremental 👉click acá
+  - Proceso de análisis de datos 👉click acá
+- Conexión de datos con Dashboard 👉click acá
+- Conexión de datos con modelo ML 👉click acá
