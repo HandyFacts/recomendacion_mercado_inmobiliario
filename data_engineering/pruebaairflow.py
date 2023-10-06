@@ -16,38 +16,8 @@ columns_to_drop=['source','permalink','other_listings','open_houses','branding',
 #eliminar las columas
 houses_for_sale.drop(columns=columns_to_drop,inplace=True)
 
-#buscar en la columna description por valores que esta duplicados
-
-#crear una lista para guardas las filas de la columna description
-descriptions = []
-#crear lita de id que estan repetidoas
-ids=[]
-for index, row in houses_for_sale.groupby('property_id')['description'].apply(list).reset_index().iterrows():
-    id=str(row['property_id'])
-    
-    if len(row['description']) > 1:
-
-        descriptions.append(row['description'])
-        ids.append(id)
-        if len(ids) >2:
-            break
-
-#los id_producto que estan con filas duplicadas
-ids
-
-#ver que filas son las duplicadas
-descriptions[0]
 
 
-print("las ids duplicadas son", ids)
-print("las filas duplicadas son",descriptions[0])
-
-#ver que filas son duplicadas por id, son exactamente las mimas filas por eso hay que eliminar
-houses_for_sale[houses_for_sale['property_id']== 1034050928]
-
-#eliminar las columnas duplicadas
-houses_for_sale.drop_duplicates(subset='property_id', inplace = True)
-print("el tamaño del dataset es :",houses_for_sale.shape)
 
 #definir una funcion para sacar los datos de las columnas que contiene cadenas que representan diccionarios
 
