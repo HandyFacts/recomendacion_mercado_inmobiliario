@@ -91,7 +91,7 @@
 - Diagrama de arquitectura propuesta
   - Modelo ER de los datos 👉click acá
   - pipelines para alimentacion de DW 👉click acá
-![pendiente(2)](data_analysis/src/images/pendiente(2).jpg)
+![pipelines](data_analysis/src/images/pipelines(2).jpg)
 - Data Warehouse
   - Creacion 👉click acá
   - Automatización 👉click acá
