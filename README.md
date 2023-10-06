@@ -93,9 +93,9 @@
   - pipelines para alimentacion de DW 👉click acá
 ![pipelines](data_analysis/src/images/pipelines(2).jpg)
 - Data Warehouse
-  - Creacion 👉click acá
-  - Automatización 👉click acá
-  - Proceso de carga ingremental 👉click acá
+  - Creacion [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki#data-warehouse)
+  - Automatización [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki#apache-airflow-dentro-de-cloud-composer)
+  - Proceso de carga ingremental [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki#carga-incremental)
   - Proceso de análisis de datos 👉click acá
 - Conexión de datos con Dashboard 👉click acá
 - Conexión de datos con modelo ML 👉click acá
