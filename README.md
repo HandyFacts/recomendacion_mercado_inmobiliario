@@ -4,7 +4,7 @@
 
   - Misión [👉click acá](https://github.com/HandyFacts#misi%C3%B3n)
   - Visión [👉click acá](https://github.com/HandyFacts#visi%C3%B3n)
-  - Alcances [👉click acá](https://github.com/HandyFacts#nuestra-experiencia)
+  - Enfoque [👉click acá](https://github.com/HandyFacts#nuestra-experiencia)
   - Por que elegirnos [👉click acá](https://github.com/HandyFacts#por-qu%C3%A9-elegir-handy-facts-corporation)
 <br>
 
