@@ -1,6 +1,12 @@
+<style>
+body {
+    background-color: white;
+}
+</style>
+
 ![handyfacts](data_analysis/src/images/handyfacts.jpg)
 
-![handyfacts(2)](data_analysis/src/images/handyfacts(2).jpg)
+![handyfacts(4)](data_analysis/src/images/handyfacts(4).png)
 
   - Misión [👉click acá](https://github.com/HandyFacts#misi%C3%B3n)
   - Visión [👉click acá](https://github.com/HandyFacts#visi%C3%B3n)
@@ -29,7 +35,7 @@
 
 ![proyecto-inmobiliario](data_analysis/src/images/proyecto-inmobiliario.jpg)
 
-![inmobiliaria(2)](data_analysis/src/images/inmobiliaria(2).jpg)
+![inmobiliario(3)](data_analysis/src/images/inmobiliario(3).png)
 
 ![product-backlog](data_analysis/src/images/product-backlog.gif)
   - Contexto [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#1-contexto)
