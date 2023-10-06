@@ -98,4 +98,4 @@
   - Proceso de carga ingremental [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki#carga-incremental)
   - Proceso de análisis de datos 👉click acá
 - Conexión de datos con Dashboard 👉click acá
-- Conexión de datos con modelo ML 👉click acá
+- Conexión de datos con modelo ML [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
