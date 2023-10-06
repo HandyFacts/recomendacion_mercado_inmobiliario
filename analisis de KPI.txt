@@ -1,0 +1,129 @@
+
+planear toda la historia del cliente:
+
+cliente que lleva años en el sector inmobiliario y ve que sus ganancias no aumentan con el tiempo. Encuentra nuestros servicios en la red y decide contratarnos porque quiere mejorarar sus utilidades sin tener que involucrarse por completo en el estudio del sector inmobiliario
+Es una persona natural con mucho dinero que ya quiere retirarse (jubilarse) para compartir con su familia porque está cansada de tanto trabajar.
+
+- necesidad de vivienda: para inversión (comprar ahora y obtener ganancia vendiendo mas adelante).
+- presupuesto: hasta 2M de dóalres.
+- ubicacion: Estados de USA sin entrar a un mayor detalle geográfico.
+- tamaño, espacio y comodidades: caracteristicas definidas por el clietne de acuerdo a las disponibles en el mercado.
+
+
+
+**********ALCANCE:
+**********contrato por cantidad de consultas: NO
+**********contrado por cantidad de tiempo: SI
+**********cantidad de propiedades: NO
+**********Pais de consulta: USA
+**********Detalle geográfico de consulta: ESTADOS DE USA
+
+
+**********como puedo diversificar mi cartera?
+**********puedo comprar varias propiedades?
+
+
+-------------------------------------------------
+
+METAS: 2 funcionalidades
+
+
+funcionalidad 1:
+mostrar en la web las 3 propiedades destacadas de la semana segun el mayor retorno calculado ACTUAL sin tener en cuenta el precio.
+NOTA: retorno = resta entre el valor estimado por el modelo y el valor real de la propiedad.
+
+
+funcionalidad 2:
+mostrar el porcentaje calculado de retorno en 5 años BASADOS EN LA PROYECCION DE INCREMENTO DE DEMANDA.
+NOTA 1: input pagina = caracteristicas casa
+NOTA 2: output pagina = precio estimado actual + precio estimado actual * factor incremento debido a la demanda
+NOTA 3: precio estimado = precio calculado por el modelo segun las caracteristicas de la propiedad y la tendencia actual del mercado.
+NOTA 4: tendencia del mercado = tendencia de demanda del mercado en cuanto a la compra de propiedades
+
+
+funcionalidad 3:
+mostrar las 3 propiedades destacadas disponibles de acuerdo a los criterios de busqueda.
+
+
+
+-------------------------------------------------
+
+MODELOS ML
+
+modelo 1: calcular el porcentaje de variacion del precio segun la tendencia del mercado en 5 años
+NOTA: Tendencia del mercado = demanda en cuanto a la compra de propiedades
+
+modelo 2: recomendar propiedades con ciertas caracteristica similares que tengan el precio mas bajo mostrando su margen de ganancia asociado
+
+margen de ganancia? precio estimado - valor real
+
+precio estimado? caracteristicas fisicas, ubicacion (sector), tendencia del mercadoi
+
+valor real? varia en funcion de....
+
+
+-------------------------------------------------
+
+KPI
+
+
+1. Rendimiento de las inversiones (ROI). Si está realizando alguna inversión, querrá conocer su rendimiento. Quizá también querrá saber qué rendimiento habría tenido anteriormente. Eso es justo lo que hace este indicador inmobiliario.
+ROI = (Beneficios netos / Inversión total) * 100 %
+(promedio de retorno de inversion para todas las propiedades seleccioandas - retorno de inversion actual)
+
+1.Aumentar el rendimiento de las inversiones en un 10% con respecto a los 5 años anteriores a la contratacion de los servicios Handy Facts(sabiendo que el rendimiento anterior no superaba el 5%) 
+
+	*El rendimiento de las inversiones se calcula con la siguiente formula (Beneficios netos / Inversión total) * 100 %
+
+
+2. Valor de la Propiedad: El valor de la propiedad en el mercado es un indicador importante para los inversores. Puede medirse a través de tasaciones periódicas o comparaciones con propiedades similares en la zona. El aumento del valor de la propiedad puede indicar una inversión exitosa a largo plazo.
+(porcenaje de incremento en el valor)
+
+2. 
+
+3. Diversificación de la Cartera: Si la inversora posee múltiples propiedades en diferentes ubicaciones de Estados Unidos, la diversificación geográfica puede ser un KPI relevante. Puede medirse mediante la distribución de la inversión en diversas áreas geográficas para reducir el riesgo. (buscar otros relacionados con diversificacio nde la cartera)
+(entre mas cercanas esten las propiedades mas riesgosa puede ser la inversion)
+
+3. Mantener el indice de concentracion de la cartera en valores menores a 0.5 durante el periodo de contratacion:
+
+	para calcular el indice de concentracion de la cartera se sigue la siguiente formula
+	*Índice de concentración cartera = (sumatoria de los indices de concentracion por estado) / numero de estados
+
+	para calcular el indice de concentracion por estado:
+	*Índice de concentración por estado = Valor de los inmuebles en el estado / Valor total de la cartera
+
+4. Promedio del Error porcentual absoluto (MAPE) en torno al 80%: Este indicador de rendimiento clave (KPI) evalúa la precisión del modelo al predecir el valor de venta de un inmueble en comparación con el valor real al que finalmente se vendió el inmueble. Se espera que el MAPE promedio se mantenga cerca del 80%, lo que indica que las predicciones del modelo están acertando en un 80% en promedio en relación con los valores reales de venta
+
+
+
+(porcentaje de diferencia entre el valor calculado en que se podria vender y el valor rela en que el cliente vende la propiedad despues de haberla comprado)
+
+
+5. Número de Tasaciones Realizadas: Este KPI mide la cantidad de tasaciones que el perito completa en un período de tiempo específico. Puede ser útil para evaluar la productividad y la carga de trabajo del perito.
+
+
+
+-------------------------------------------------
+
+
+
+
+ESTRUCTURA PRESENTACION: (evitar lenguaje mu tecnico)
+
+IV - diapo 1: 	bienenida empresa (logo) 1 min
+
+IV - diapo 2: 	metodologia - 3 min
+
+BE - diapo 3: 	definir cliente (min texto, incluye 1 foto)
+		propuesta (contexto y objetivo) - 3 min
+
+AD - diapo 4: 	solucion (propuesta y alcance) 3 min
+
+YU - diapo 5: 	resumen tecnologias propuestas 3 min
+
+LU - diapo 6: 	stack implementado 3 min
+
+IV - diapo 7: gracias - 1 min
+
+
+
