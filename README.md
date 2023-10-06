@@ -1,6 +1,6 @@
 ![handyfacts](data_analysis/src/images/handyfacts.jpg)
 
-![handyfacts(4)](data_analysis/src/images/handyfacts(4).png)
+![handyfacts(6)](data_analysis/src/images/handyfacts(6).png)
 
   - Misión [👉click acá](https://github.com/HandyFacts#misi%C3%B3n)
   - Visión [👉click acá](https://github.com/HandyFacts#visi%C3%B3n)
