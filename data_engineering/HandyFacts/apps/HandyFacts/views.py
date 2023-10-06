@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from . import models
 
 # Create your views here.
 def index(request):
@@ -6,3 +7,10 @@ def index(request):
 
 def about(request):
     return render(request, 'about.html')
+
+def products(request):
+    propertys = models.Property.objects.all()[:30]
+
+    return render(request, 'products.html', {
+        'propertys': propertys
+    })

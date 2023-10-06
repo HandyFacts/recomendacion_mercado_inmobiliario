@@ -1,6 +1,8 @@
 .gitignore
 retry.sh
 
+data_engineering/ETL_Lucas
+
 data_engineering/HandyFacts/.venv
 data_engineering/HandyFacts/cloud_sql_proxy
 data_engineering/HandyFacts/.gcloudignore
@@ -14,3 +16,7 @@ data_engineering/HandyFacts/apps/HandyFacts/static
 data_engineering/HandyFacts/apps/Members/__pycache__
 data_engineering/HandyFacts/apps/Members/migrations
 data_engineering/HandyFacts/apps/Members/static
+
+data_engineering/HandyFacts/apps/HandyFacts/api/__pycache__
+data_engineering/HandyFacts/apps/Members/api/__pycache__
+data_engineering/HandyFacts/apps/HandyFacts/management/commands/__pycache__

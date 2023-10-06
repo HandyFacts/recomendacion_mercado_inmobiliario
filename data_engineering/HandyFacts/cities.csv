@@ -1,0 +1,494 @@
+index,city
+0,Richmond
+1,Everett
+2,Peoria
+3,Temecula
+4,Oakland
+5,Rancho Cucamonga
+6,Pomona
+7,Santa Clara
+8,Stockton
+9,Saugus
+10,Aurora
+11,San Jose
+12,Modesto
+13,Boise
+14,Oceanside
+15,Anaheim
+16,Colorado Springs
+17,Salem
+18,Hayward
+19,Murrieta
+20,Orange
+21,Centennial
+22,Tempe
+23,Eugene
+24,Santa Ana
+25,Provo
+26,Corona
+27,Berkeley
+28,Fresno
+29,Elk Grove
+30,Torrance
+31,Escondido
+32,Salt Lake City
+33,Visalia
+34,West Valley City
+35,Scottsdale
+36,Fullerton
+37,Santa Rosa
+38,Portland
+39,Valencia
+40,Ventura
+41,San Francisco
+42,Seattle
+43,North Las Vegas
+44,Antioch
+45,Inglewood
+46,Simi Valley
+47,Vallejo
+48,Palmdale
+49,Tacoma
+50,Chula Vista
+51,Salinas
+52,Spokane
+53,West Covina
+54,Newbury Park
+55,Burbank
+56,Laveen
+57,San Bernardino
+58,Arvada
+59,Lancaster
+60,El Monte
+61,Vancouver
+62,Mesa
+63,Concord
+64,Cave Creek
+65,Canyon Country
+66,Downey
+67,Huntington Beach
+68,Las Vegas
+69,Carlsbad
+70,Phoenix
+71,Norwalk
+72,Tucson
+73,Ontario
+74,Sacramento
+75,Fontana
+76,Glendale
+77,Pueblo
+78,Gilbert
+79,San Diego
+80,Fremont
+81,Littleton
+82,Pasadena
+83,Lakewood
+84,Woodland Hills
+85,Chandler
+86,Daly City
+87,Henderson
+88,Gresham
+89,Bakersfield
+90,Fort Collins
+91,Albuquerque
+92,Highland
+93,Bellevue
+94,Costa Mesa
+95,Oxnard
+96,Lennox
+97,Long Beach
+98,La Jolla
+99,Reno
+100,Irvine
+101,Riverside
+102,Newhall
+103,Los Angeles
+104,Garden Grove
+105,Sunnyvale
+106,Denver
+107,Eastvale
+108,Victorville
+109,Fairfield
+110,Roseville
+111,Santa Clarita
+112,Westminster
+113,Studio City
+114,Jurupa Valley
+115,North Tustin
+116,West Jordan
+117,Thornton
+118,Moreno Valley
+119,Alta Loma
+120,Hollywood
+121,Surprise
+122,Van Nuys
+123,Thousand Oaks
+124,El Sobrante
+125,Pueblo West
+126,Antelope
+127,La Canada Flintridge
+128,Porter Ranch
+129,Phillips Ranch
+130,Austin
+131,Redondo Beach
+132,Chatsworth
+133,Sun City
+134,Westlake Village
+135,Bonita
+136,Encino
+137,Lake Balboa
+138,Valley Village
+139,Sherman Oaks
+140,Santa Monica
+141,Rialto
+142,Del Aire
+143,Shadow Hills
+144,North Hollywood
+145,Winchester
+146,Roosevelt
+147,Sylmar
+148,Hawthorne
+149,Pacific Palisades
+150,New River
+151,Broomfield
+152,Newport Beach
+153,University Place
+154,Indianapolis
+155,Erie
+156,Lowell
+157,Cincinnati
+158,Stamford
+159,Sterling Heights
+160,Boston
+161,Lansing
+162,Detroit
+163,Pittsburgh
+164,Evansville
+165,Allentown
+166,Providence
+167,Dayton
+168,Salisbury
+169,Cleveland
+170,New Haven
+171,Cambridge
+172,Lexington
+173,Grand Rapids
+174,Ann Arbor
+175,Jamaica Plain
+176,Louisville
+177,Bridgeport
+178,Worcester
+179,Toledo
+180,Waterbury
+181,Akron
+182,Bay Village
+183,Fort Wayne
+184,Warren
+185,Manchester
+186,Rochester
+187,Springfield
+188,South Bend
+189,Canal Winchester
+190,Deer Park
+191,Green Township
+192,Flint
+193,Centerville
+194,South Whitehall Township
+195,Piffard
+196,East Forest Park
+197,Columbus
+198,Yonkers
+199,Hartford
+200,Middleburg Heights
+201,Pine Point Bstn Rd
+202,North Cambridge
+203,Grove City
+204,Hyde Park
+205,Worthington
+206,Clearcreek Township
+207,Lodi Township
+208,West Roxbury
+209,Carnegie
+210,Upper Macungie Township
+211,Harvard Square
+212,Okemos
+213,York
+214,Kettering
+215,Wadsworth
+216,Cuyahoga Falls
+217,Midtown
+218,Hamden
+219,Wyoming
+220,Tuckahoe
+221,Kentwood
+222,Plum
+223,Dorchester
+224,Scio Township
+225,Cleveland Heights
+226,Fairview Park
+227,Parma
+228,Mundy Township
+229,Greene
+230,Garfield Heights
+231,South Boston
+232,Cranston
+233,New Albany
+234,Brighton
+235,Gahanna
+236,Brooklyn
+237,Northfield Township
+238,Charlestown
+239,Cheviot
+240,Macomb Township
+241,Pgh
+242,North Providence
+243,Roslindale
+244,Mayfield Heights
+245,Westerville
+246,Mill Creek
+247,Eastchester
+248,Reading
+249,Superior Township
+250,Mount Healthy
+251,Alexandria
+252,Garden City
+253,Raleigh
+254,Virginia Beach
+255,Miami Gardens
+256,Winston Salem
+257,Columbia
+258,Hialeah
+259,Newark
+260,Greensboro
+261,Jersey City
+262,Athens
+263,Gainesville
+264,Arlington
+265,Norfolk
+266,Wilmington
+267,Baltimore
+268,Jacksonville
+269,Augusta
+270,Elizabeth City
+271,Tallahassee
+272,Savannah
+273,Coral Springs
+274,Orlando
+275,Miramar
+276,Pembroke Pines
+277,Durham
+278,Miami
+279,Tampa
+280,Washington
+281,Atlanta
+282,High Point
+283,Hampton
+284,Cary
+285,Port Saint Lucie
+286,Paterson
+287,Fayetteville
+288,Chesapeake
+289,Windsor Mill
+290,Fort Lauderdale
+291,North Charleston
+292,Bogart
+293,Rosedale
+294,Palm Bay
+295,Jamestown
+296,Charlotte
+297,Clearwater
+298,Midland
+299,Newport News
+300,Charleston
+301,Dania Beach
+302,Johns Island
+303,Henrico
+304,Elizabeth
+305,Cooper City
+306,Brooklyn Park
+307,Catonsville
+308,Apex
+309,North Chesterfield
+310,Dundalk
+311,Halethorpe
+312,Kernersville
+313,Parkville
+314,Oakland Park
+315,Hephzibah
+316,Clearwater Beach
+317,Porters Neck
+318,Winterville
+319,Daniel Island
+320,Matthews
+321,Pfafftown
+322,Hialeah Gardens
+323,Towson
+324,College Park
+325,Summerfield
+326,Omaha
+327,Yukon
+328,Green Bay
+329,Carrollton
+330,Chicago
+331,Norman
+332,Saint Paul
+333,Plainfield
+334,Lincoln
+335,Brownsville
+336,Overland Park
+337,Shreveport
+338,Baton Rouge
+339,Honolulu
+340,Amarillo
+341,Owens Cross Roads
+342,Dallas
+343,Laredo
+344,Clarksville
+345,Little Rock
+346,El Paso
+347,Elgin
+348,Lubbock
+349,Grand Prairie
+350,Frisco
+351,Plano
+352,Memphis
+353,Huntsville
+354,Sioux Falls
+355,Anchorage
+356,Independence
+357,Oklahoma City
+358,Fort Worth
+359,Jackson
+360,Vadnais Heights
+361,Wichita
+362,Billings
+363,Des Moines
+364,Cedar Rapids
+365,Denton
+366,Knoxville
+367,Murfreesboro
+368,Mobile
+369,Pflugerville
+370,Nashville
+371,Birmingham
+372,San Antonio
+373,Olathe
+374,Naperville
+375,Topeka
+376,Madison
+377,Wichita Falls
+378,Tulsa
+379,McKinney
+380,Houston
+381,Fargo
+382,Metairie
+383,Waco
+384,Corpus Christi
+385,McAllen
+386,Abilene
+387,Garland
+388,Minneapolis
+389,Maplewood
+390,New Hope
+391,Montgomery
+392,Rockford
+393,Killeen
+394,Bayside
+395,Kansas City
+396,Mesquite
+397,Chattanooga
+398,Shorewood
+399,Irving
+400,Edinburg
+401,Richfield
+402,Lafayette
+403,Chugiak
+404,Saint Anthony
+405,Joliet
+406,Beaumont
+407,Choctaw
+408,Hixson
+409,Fenton
+410,Woodway
+411,Joelton
+412,Saint Louis Park
+413,Midwest City
+414,Goodlettsville
+415,Milwaukee
+416,Jefferson
+417,Clay
+418,Greenfield
+419,Eagle River
+420,Edwards
+421,Fultondale
+422,Del Valle
+423,Fairview
+424,Marion Township
+425,Sansom Park
+426,Verona
+427,Blue Springs
+428,Holliday
+429,White Settlement
+430,Seabrook
+431,Edmond
+432,Pike Road
+433,Dalworthington Gardens
+434,Dunlap
+435,Alexander
+436,Kissee Mills
+437,West Allis
+438,Queen Creek
+439,Walnut
+440,Rockvale
+441,Broken Arrow
+442,Huber Heights
+443,Burnet
+444,New Vienna
+445,Grovetown
+446,Von Ormy
+447,County Los Angeles
+448,Neighborhood 9
+449,Back Bay
+450,Indian Orchard
+451,Mount Lebanon
+452,Bloomingdale
+453,Aledo
+454,China Spring
+455,Cambridge Highlands
+456,East Boston
+457,Boone
+458,Holladay
+459,Genesee
+460,Bucyrus
+461,
+462,Manor
+463,Dorchester's Uphams Corner
+464,Malibu
+465,University Park
+466,Belvidere
+467,Tulare
+468,Harvest
+469,Girdwood
+470,Area 4 the Port
+471,Dorchester's Savin Hill
+472,Woodville
+473,Hat Island
+474,Piedmont
+475,Brentwood
+476,Melbourne
+477,Sixteen Acres
+478,TULSA
+479,FORT WAYNE
+480,MONTGOMERY
+481,BATON ROUGE
+482,KILLEEN
+483,Newberry
+484,Argyle
+485,PROVO
+486,Winston-Salem
+487,CORPUS CHRISTI
+488,BEAUMONT
+489,HAYWARD
+490,BLOOMINGDALE
+491,Lorena
+492,Mc Gregor

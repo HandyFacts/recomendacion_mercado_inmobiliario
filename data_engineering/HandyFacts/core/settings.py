@@ -78,6 +78,7 @@ MY_APPS = [
 
 THIRD_PARTY_APPS = [
     "storages",
+    'rest_framework',
 ]
 
 
