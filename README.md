@@ -89,13 +89,15 @@
 
 - Diccionario de datos [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/4-diccionario-de-datos)
 - Diagrama de arquitectura propuesta
-  - Modelo ER de los datos 👉click acá
-  - pipelines para alimentacion de DW 👉click acá
+  - Modelo ER de los datos
+  - pipelines para alimentacion de DW [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#tabla-de-contenidos)
 ![pipelines](data_analysis/src/images/pipelines(2).jpg)
 - Data Warehouse
-  - Creacion 👉click acá
-  - Automatización 👉click acá
-  - Proceso de carga ingremental 👉click acá
-  - Proceso de análisis de datos 👉click acá
-- Conexión de datos con Dashboard 👉click acá
-- Conexión de datos con modelo ML 👉click acá
+  - Creacion [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
+  - Automatización
+  - Proceso de carga ingremental [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#6-carga-incremental)
+  - Proceso de análisis de datos
+- Conexión de datos con Dashboard
+- Conexión de datos con modelo ML
+- Modelos ML
+  - Demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
