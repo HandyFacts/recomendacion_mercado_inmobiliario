@@ -175,5 +175,5 @@
   
   - Mockups
 
-- Página web entregable [👉click acá](https://handy-facts-service-ctxwxsa3aa-uc.a.run.app/)
+- Página web final [👉click acá](https://handy-facts-service-ctxwxsa3aa-uc.a.run.app/)
 
