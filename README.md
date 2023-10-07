@@ -151,15 +151,15 @@
 
   - Pipelines para alimentacion de DW [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#tabla-de-contenidos)
 
-    - Creacion del Data Lake [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
+  - Creacion del Data Lake [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
 
-    - Automatización (Apache Airflow dentro de Cloud Composer) [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#4-apache-airflow-dentro-de-cloud-composer)
+  - Automatización (Apache Airflow dentro de Cloud Composer) [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#4-apache-airflow-dentro-de-cloud-composer)
 
-    - Data Warehouse [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
+  - Data Warehouse [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
 
-    - Proceso de carga ingremental [👉click acá](https://www.youtube.com/watch?v=h3lyDb4eENY&feature=youtu.be)
+  - Proceso de carga ingremental [👉click acá](https://www.youtube.com/watch?v=h3lyDb4eENY&feature=youtu.be)
 
-    - Proceso de validación de datos
+  - Proceso de validación de datos
 
 - Modelos ML
 
