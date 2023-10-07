@@ -155,11 +155,11 @@
 
   - Creacion [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
 
-  - Automatización
+  - Automatización (Apache Airflow dentro de Cloud Composer) [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#4-apache-airflow-dentro-de-cloud-composer)
 
   - Proceso de carga ingremental [👉click acá](https://www.youtube.com/watch?v=h3lyDb4eENY&feature=youtu.be)
 
-  - Proceso de análisis de datos
+  - Proceso de validación de datos
 
 - Conexión de datos con Dashboard
 
