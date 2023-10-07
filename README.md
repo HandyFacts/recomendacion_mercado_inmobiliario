@@ -1,4 +1,4 @@
-![handyfacts](data_analysis/src/images/handyfacts.jpg)
+![handyfacts](data_analysis/src/images/handyfacts(7).png)
 
 ![handyfacts(6)](data_analysis/src/images/handyfacts(6).png)
 
