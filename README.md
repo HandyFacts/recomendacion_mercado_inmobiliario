@@ -6,7 +6,7 @@
 
   - Visión [👉click acá](https://github.com/HandyFacts#visi%C3%B3n)
 
-  - Enfoque [👉click acá](https://github.com/HandyFacts#nuestra-experiencia)
+  - Nuestro enfoque [👉click acá](https://github.com/HandyFacts#nuestro-enfoque)
 
   - Por que elegirnos [👉click acá](https://github.com/HandyFacts#por-qu%C3%A9-elegir-handy-facts-corporation)
 
@@ -65,7 +65,7 @@
 
     - Entregables [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#41-entregables)
 
-    - Funcionalidades de los entregables [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlo#42-funcionalidades-de-los-entregables)
+    - Funcionalidades de los entregables [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#42-funcionalidades-de-los-entregables)
 
     - Criterios de aceptación [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#43-criterios-de-aceptaci%C3%B3n)
 
@@ -75,19 +75,19 @@
 
 - Modelos propuestos de ML[👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#5-modelos-propuestos-de-ml)
 
-  - **Modelo 1**: Modelo de proyección de tendencia[👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-modelo-de-proyección-de-tendencia)
+  - **Modelo 1**: Modelo de proyección de tendencia [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-modelo-1-modelo-de-proyecci%C3%B3n-de-tendencia)
 
-  - **Modelo 2**: Sistema de recomendación de propiedades[👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#52-sistema-de-recomendación-de-propiedades)
+  - **Modelo 2**: Sistema de recomendación de propiedades [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#52-modelo-2-sistema-de-recomendaci%C3%B3n-de-propiedades)
 
 - Indicadores de rendimiento (KPI's)
 
-  - **KPI 1**: Incremento del Rendimiento de Inversiones [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-incremento-del-rendimiento-de-inversiones)
+  - **KPI 1**: Incremento del Rendimiento de Inversiones [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#61-kpi-1-incremento-del-rendimiento-de-inversiones)
 
-  - **KPI 2**: Índice de Concentración de Cartera [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#52-%C3%ADndice-de-concentraci%C3%B3n-de-cartera)
+  - **KPI 2**: Índice de Concentración de Cartera [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#62-kpi-2-%C3%ADndice-de-concentraci%C3%B3n-de-cartera)
 
-  - **KPI 3**: Eficacia Media en Predicciones [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#53-eficacia-media-en-predicciones)
+  - **KPI 3**: Eficacia Media en Predicciones [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#63-kpi-3-eficacia-media-en-predicciones)
 
-  - **KPI 4**: Índice de Retorno de Inversión (ROI) en Predicciones [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#54-%C3%ADndice-de-retorno-de-inversi%C3%B3n-roi-en-predicciones)
+  - **KPI 4**: Índice de Retorno de Inversión (ROI) en Predicciones [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#64-kpi-4-%C3%ADndice-de-retorno-de-inversi%C3%B3n-roi-en-predicciones)
 
 <br>
 
