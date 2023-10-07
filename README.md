@@ -73,7 +73,7 @@
 
     - Supuestos [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#45-supuestos)
 
-- Modelos propuestos de ML[👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#5-modelos-propuestos-de-ml)
+- Modelos propuestos de ML
 
   - **Modelo 1**: Modelo de proyección de tendencia [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-modelo-1-modelo-de-proyecci%C3%B3n-de-tendencia)
 
@@ -150,8 +150,6 @@
   - Modelo ER de los datos
 
   - Pipelines para alimentacion de DW [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#tabla-de-contenidos)
-
-![pipelines](data_analysis/src/images/pipelines(3).jpg)
 
 - Data Warehouse
 
