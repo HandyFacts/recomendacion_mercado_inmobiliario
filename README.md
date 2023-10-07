@@ -75,7 +75,7 @@
 
 - Modelos propuestos de ML
 
-  - **Modelo 1**: Modelo de proyección de tendencia [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-modelo-1-modelo-de-proyecci%C3%B3n-de-tendencia)
+  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-modelo-1-modelo-de-proyecci%C3%B3n-de-tendencia)
 
   - **Modelo 2**: Sistema de recomendación de propiedades [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#52-modelo-2-sistema-de-recomendaci%C3%B3n-de-propiedades)
 
@@ -145,24 +145,33 @@
 
 - Diccionario de datos [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/4-diccionario-de-datos)
 
-- Diagrama de arquitectura propuesta
+- Propuesta de arquitectura de datos
 
   - Modelo ER de los datos
 
   - Pipelines para alimentacion de DW [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#tabla-de-contenidos)
 
-- Data Warehouse
+    - Creacion del Data Lake [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
 
-  - Creacion [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
+    - Automatización (Apache Airflow dentro de Cloud Composer) [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#4-apache-airflow-dentro-de-cloud-composer)
 
-  - Automatización (Apache Airflow dentro de Cloud Composer) [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#4-apache-airflow-dentro-de-cloud-composer)
+    - Data Warehouse [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#5-data-warehouse)
 
-  - Proceso de carga ingremental [👉click acá](https://www.youtube.com/watch?v=h3lyDb4eENY&feature=youtu.be)
+    - Proceso de carga ingremental [👉click acá](https://www.youtube.com/watch?v=h3lyDb4eENY&feature=youtu.be)
 
-  - Proceso de validación de datos
-
-- Conexión de datos con Dashboard
+    - Proceso de validación de datos
 
 - Modelos ML
 
-  - Demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
+  - Conexión de modelos ML con los datos
+
+  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
+  
+  - **Modelo 2**: Sistema de recomendación de propiedades
+
+- Dashboard
+
+  - Conexión de Dashboard con los datos
+  
+  - Mockups
+
