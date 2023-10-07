@@ -75,7 +75,7 @@
 
 - Modelos propuestos de ML
 
-  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-modelo-1-modelo-de-proyecci%C3%B3n-de-tendencia)
+  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#51-modelo-1-tendencia-de-la-demanda)
 
   - **Modelo 2**: Sistema de recomendación de propiedades [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/1-product-backlog#52-modelo-2-sistema-de-recomendaci%C3%B3n-de-propiedades)
 
