@@ -69,7 +69,7 @@ def get_new_data():
         querystring = {"state_code":f"{State_code}","sort":"newest","offset":"0","limit":"42"}
 
         headers = {
-            "X-RapidAPI-Key": "f2d5ac3b00msh218fccabe383fd3p1b888fjsnf4e445be17eb",
+            "X-RapidAPI-Key": "private_key",
             "X-RapidAPI-Host": "us-real-estate.p.rapidapi.com"
         }
 
