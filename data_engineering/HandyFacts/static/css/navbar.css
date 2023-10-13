@@ -1,0 +1,43 @@
+nav{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    padding:20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+
+nav .logo{
+    width: 160px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color:#ffff;
+    font-size: 17px;
+    transition: 0.5s;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li a:hover{
+    letter-spacing: 1px;
+}
+
+.active{
+    color: violet;
+    background-color: #fff;
+    border: 1px #fff solid;
+    padding: 5px;
+    border-radius: 5px;
+}

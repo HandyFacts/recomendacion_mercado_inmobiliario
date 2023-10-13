@@ -1,0 +1,20 @@
+{% load static %}
+<nav>
+    <img src="{% static 'HandyFacts/img/logo.png' %}" alt="logo" class="logo">
+    <ul>
+        <li><a href="{% url 'handy-facts:home' %}" class="change {% if request.path == '/' %}active{% endif %}" 
+            data-swup-transition="left">Home</a></li>
+        <li><a href="{% url 'handy-facts:houses' %}" class="change {% if request.path == '/houses/' %}active{% endif %}" 
+            data-swup-transition="left">Houses</a></li>
+        <li><a href="{% url 'handy-facts:graph_list' %}" class="change {% if request.path == '/graph/' %}active{% endif %}" 
+            data-swup-transition="left">Graphs</a></li>
+        <li><a href="https://github.com/HandyFacts#handy-facts-corporation" class="change" target="_blank"
+            data-swup-transition="left">About us</a></li>
+        <li><a href="https://github.com/HandyFacts/recomendacion_mercado_inmobiliario" class="change" target="_blank">Github</a></li>
+        {% if not request.user.is_authenticated %}
+        <li><a href="{% url 'login' %}" class="sing-in change" >Log in</a></li>
+        {% else %}
+        <li><a href="{% url 'logout' %}" class="sing-in change" >Log out</a></li>
+        {% endif %}
+    </ul>
+</nav>

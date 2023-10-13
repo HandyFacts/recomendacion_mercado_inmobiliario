@@ -159,11 +159,23 @@ USE_TZ = True
 # [START cloudrun_django_static_config]
 # Define static storage via django-storages[google]
 
-GS_BUCKET_NAME = env("GS_BUCKET_NAME")
-STATIC_URL = "/static/"
-DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
-STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
-GS_DEFAULT_ACL = "publicRead"
+# GS_BUCKET_NAME = env("GS_BUCKET_NAME")
+# STATIC_URL = "/static/"
+# DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+# STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+# GS_DEFAULT_ACL = "publicRead"
+
+if DEBUG:
+    # Configuración para entorno de desarrollo local
+    STATIC_URL = '/static/'
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+else:
+    # Configuración para el entorno de producción con Google Cloud Storage
+    GS_BUCKET_NAME = os.environ.get("GS_BUCKET_NAME")
+    STATIC_URL = "/static/"
+    DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+    STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+    GS_DEFAULT_ACL = "publicRead"
 
 #Auth redirect
 LOGIN_REDIRECT_URL = 'handy-facts:home'

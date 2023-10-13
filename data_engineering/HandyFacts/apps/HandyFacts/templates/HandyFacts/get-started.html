@@ -1,0 +1,33 @@
+{% extends 'HandyFacts/base.html' %}
+{% load static %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'HandyFacts/css/get-started.css' %}">
+{% endblock styles %}
+{% block title %}Get Started{% endblock title %}
+{% block content %}
+<div class="container">
+    <div class="option">
+        <h1 class="card-title">Starter</h1>
+        <div class="card-content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non libero, ex beatae nemo consectetur porro id totam, dolorem deleniti excepturi doloribus dolores debitis? Consequatur quam sequi qui, distinctio culpa non!</p>
+        </div>
+        <a  href="google.com" class="btn-card">Select</a>
+    </div>
+    <div class="option">
+        <h1 class="card-title">Premium</h1>
+        <div class="card-content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non libero, ex beatae nemo consectetur porro id totam, dolorem deleniti excepturi doloribus dolores debitis? Consequatur quam sequi qui, distinctio culpa non!</p>
+        </div>
+
+        <a href="google.com" class="btn-card">Select</a>
+        
+    </div>
+    <div class="option">
+        <h1 class="card-title">Premium Plus</h1>
+        <div class="card-content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non libero, ex beatae nemo consectetur porro id totam, dolorem deleniti excepturi doloribus dolores debitis? Consequatur quam sequi qui, distinctio culpa non!</p>
+        </div>
+        <a  href="google.com" class="btn-card">Select</a>
+    </div>
+</div>
+{% endblock content %}

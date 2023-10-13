@@ -1,0 +1,103 @@
+{% extends 'HandyFacts/base.html' %}
+{% load format_int_tags %}
+{% load static %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'HandyFacts/css/products.css' %}">
+{% endblock styles %}
+{% block title %}Products{% endblock title %}
+{% block content %}
+{% endblock content %}
+{% block content2 %}
+<div class="container">
+    <div class="container-houses">
+        <div class="sidebar">
+            <form method="GET">
+                <label for="search_text" class="sidebar-search">Search: </label>
+                <input type="text" name="search_text" id="search_text" placeholder="Search by name">
+                <input type="submit" value="Search">
+            </form>
+            <form action="">
+                <label for="states_list" class="sidebar-label">State</label>
+                <input type="text" list="states" name="state_list" id="state_list" class="sidebar-input">
+                <datalist id="states">
+                    {% for state in states %}
+                    <option value="{{state}}">
+                    {% endfor %}
+                </datalist>
+
+                <label for="city" class="sidebar-label">City</label>
+                <input type="text"  list='cities' name="city" id="city" class="sidebar-input">
+                <datalist id="cities">
+                    {% for city in cities %}
+                    <option value="{{ city }}">
+                    {% endfor %}
+                </datalist>
+                <label for="">Order by Price:</label>
+                <input type="text" list="options_price" name="option_price" id="option_price" class="sidebar-input">
+                <datalist id="options_price">
+                    <option value="Low to High">
+                    <option value="High to Low">
+                </datalist>               
+<!-- 
+                <label for="">Price</label>
+                <input type="range">-->
+                <input type="submit" name="" id="" value="Filter" class="sidebar-input"> 
+            </form>
+        </div>
+        <div class="houses">
+            {% for property in object_list %}
+            <div class="card">
+                {% if property.primary_photo %}
+                <img src="{{ property.primary_photo }}" alt="">
+                {% else %}
+                <h1 height="10rem">No image available</h1>
+                {% endif %}
+                <div class="card-title">
+                    <div><a href="">{{ property.name }}
+                    </a></div>
+                    <div><b>{{ property.list_price | format_price}}</b></div>
+                </div>
+                <div class="card-body">
+                    <div class="info">
+                        <div>State: {{ property.state }}</div>
+                        <div>City: {{ property.city }}</div>
+                    </div>
+                    <div class="tags">
+                        {% for tag in property.tags|create_list %}
+                        <div>
+                            {{tag | replace_and_upper}}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>  
+    <ul class="nav-pagination">
+        {% if page_obj.has_previous %}
+        <li>
+            <a href="?page=1">&laquo; first</a>
+        </li>
+        <li>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        </li>
+        {% endif %}
+        <li>
+            <a href="">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.</a>
+        </li>
+        {% if page_obj.has_next %}
+        <li>
+            <a href="?page={{ page_obj.next_page_number }}">Next</a>
+        </li>
+        <li>
+
+            <a href="?page={{ page_obj.paginator.num_pages }}">Last &raquo;</a>
+        </li>
+        {% endif %}
+    </ul>
+</div>
+
+
+
+{% endblock content2 %}

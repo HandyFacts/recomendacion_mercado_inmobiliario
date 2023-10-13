@@ -1,21 +1,12 @@
-{% extends 'base.html' %}
+{% extends 'HandyFacts/base.html' %}
 {% load static %}
 {% block styles %}
-<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'registration/css/style.css' %}">
 {% endblock styles %}
 {% block title %}
 {% endblock title %}
 {% block content %}
-<style>
-    label{
-        display: none;
-    }
-    input{
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
-<img src="{% static 'img/fondo-login.jpg' %}" class="bg-login" alt="background" style="object-fit: fill;">
+<img src="{% static 'registration/img/fondo-login.jpg' %}" class="bg-login" alt="background" style="object-fit: fill;">
 <div class="wrapper">
     <form action="" method="post">{% csrf_token %}
         <h1>Register</h1>

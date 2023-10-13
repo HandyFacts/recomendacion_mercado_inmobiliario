@@ -1,0 +1,13 @@
+{% extends 'HandyFacts/base.html' %}
+{% load static %}
+{% block title %}Graph{% endblock title %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'HandyFacts/css/graph.css' %}">
+{% endblock styles %}
+{% block content %}
+{% endblock content %}
+{% block content2 %}
+<div class="container">
+    <iframe class="graph" height="600" src="{{ graph.link }}" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endblock content2 %}

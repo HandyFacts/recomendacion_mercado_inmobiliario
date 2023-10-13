@@ -5,7 +5,7 @@ import pandas as pd
 class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
-        df = pd.read_csv('property.csv')[['property_id', 
+        df = pd.read_csv('data/property.csv')[['property_id', 
         'longitude', 'latitude', 'postal_code',
        'line', 'fips_code', 'name', 'is_new_construction',
        'is_plan', 'is_price_reduced', 

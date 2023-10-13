@@ -1,10 +1,10 @@
-from rest_framework.serializers import ModelSerializer
+#from rest_framework.serializers import ModelSerializer
 from apps.HandyFacts import models
 
-class PropertySerializer(ModelSerializer):
-    class Meta:
-        model = models.Property
-        fields = '__all__'
+# class PropertySerializer(ModelSerializer):
+#     class Meta:
+#         model = models.Property
+#         fields = '__all__'
         # ['property_id',
         # 'longitude',
         # 'latitude',

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.sing-in{
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.5s;
+}   
+
+.sing-in:hover{
+    background-color: #fff;
+    color: black;
+    padding: 10px 15px;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 1, 0.3),rgba(56, 13, 250, 0.3));
+    position: fixed;
+    padding: 0 5%;
+}
+
+nav .logo{
+    width: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    margin: 0 5%;
+    padding: 16px;
+    top: 12rem;
+    align-items: center;
+}
+
+.container-houses {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    position: inherit;
+    top: 12px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    width: 20%;
+    max-height: 32rem;
+    opacity: 0.5;
+}
+.houses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+}
+
+.card{
+    display: flex;
+    height: 40rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    border-bottom: 1px black solid;
+}
+
+.card .card-title{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-body {
+    margin: 5px;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+.tags div{
+    margin: 2px;
+    color: #fff;
+    align-self: start;
+    background-color: purple;
+    border: 1px purple solid;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 24px;
+}
+
+.nav-pagination{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.nav-pagination a{
+    border: 1px #fff solid;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+    top: 10px;
+}

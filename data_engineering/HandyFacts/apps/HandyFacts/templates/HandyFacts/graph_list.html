@@ -1,0 +1,28 @@
+{% extends 'HandyFacts/base.html' %}
+{% load static %}
+{% block title %}Graph{% endblock title %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'HandyFacts/css/graph_list.css' %}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+{% endblock styles %}
+{% block content %}
+{% endblock content %}
+{% block content2 %}
+<div class="container">
+    <div class="graph-box-container">
+        {% for graph in object_list %}
+        <div class="graph-box">
+            <a href="{% url 'handy-facts:graph_detail' graph.id %}">{{ graph.name }}</a>
+            <span class="material-symbols-outlined">
+                monitoring
+            </span>
+        </div>
+        {% endfor %}
+        
+    </div>
+    <div class="graph-box plus">
+        <a href="{% url 'handy-facts:graph_create_form' %}">+</a>
+        <label for="">Create</label>
+    </div>
+</div>
+{% endblock content2 %}
