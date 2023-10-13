@@ -165,9 +165,9 @@
 
   - Conexión de modelos ML con los datos
 
-  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
+  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo%20Arima.ipynb)
   
-  - **Modelo 2**: Sistema de recomendación de propiedades
+  - **Modelo 2**: Sistema de recomendación de propiedades [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
 
 - Dashboard
 
