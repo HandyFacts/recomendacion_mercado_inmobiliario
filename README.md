@@ -163,7 +163,7 @@
 
 - Modelos ML
 
-  - Conexión de modelos ML con los datos
+  - Conexión de modelos ML con los datos [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/ETLs/DAG_etl_modelo.py)
 
   - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo%20Arima.ipynb)
   
