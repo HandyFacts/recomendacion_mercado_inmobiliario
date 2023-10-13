@@ -147,7 +147,7 @@
 
 - Propuesta de arquitectura de datos
 
-  - Modelo ER de los datos
+  - Modelo ER de los datos [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/src/logos/entidad-relacion.png)
 
   - Pipelines para alimentacion de DW [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/2-pipelines#tabla-de-contenidos)
 
@@ -159,19 +159,18 @@
 
   - Proceso de carga ingremental [👉click acá](https://www.youtube.com/watch?v=h3lyDb4eENY&feature=youtu.be)
 
-  - Proceso de validación de datos
 
 - Modelos ML
 
-  - Conexión de modelos ML con los datos
+  - Conexión de modelos ML con los datos [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/ETLs/DAG_etl_modelo.py)
 
-  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
+  - **Modelo 1**: Tendencia de la demanda [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo%20Arima.ipynb)
   
-  - **Modelo 2**: Sistema de recomendación de propiedades
+  - **Modelo 2**: Sistema de recomendación de propiedades [👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/blob/main/data_science/Modelo/Modelo_prices_houses.ipynb)
 
 - Dashboard
 
-  - Conexión de Dashboard con los datos
+  - Conexión de Dashboard con los datos[👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/4-dashboard#22-looker-studio)
   
   - Mockups
 
