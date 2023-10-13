@@ -171,8 +171,6 @@
 - Dashboard
 
   - Conexión de Dashboard con los datos[👉click acá](https://github.com/HandyFacts/recomendacion_mercado_inmobiliario/wiki/4-dashboard#22-looker-studio)
-  
-  - Mockups
 
 - Página web final [👉click acá](https://handy-facts-service-ctxwxsa3aa-uc.a.run.app/)
 
