@@ -1,3 +1,4 @@
+from operator import index
 import pandas as pd
 from google.cloud import storage
 from airflow import DAG
@@ -9,13 +10,14 @@ import  requests as r
 import json
 import csv
 
-bucket_name       = 'dataset_houses_for_sale'
-processing_file   = 'data_api.csv'
-file              ='data_api.csv'
-nameDAG           = 'DAG_POST'
-project           = 'radiant-micron-400219'
-owner             = 'Yuli'
-email             = ('yuliedpro1993@gmail.com')
+bucket_name            = 'dataset_houses_for_sale'
+houses_for_sale_file   = 'Houses_for_sale_processed.csv'
+processing_file        = 'data_api.csv'
+file                   ='data_api.csv'
+nameDAG                = 'DAG_POST'
+project                = 'radiant-micron-400219'
+owner                  = 'Yuli'
+email                  = ('yuliedpro1993@gmail.com')
 
 
 
@@ -50,6 +52,13 @@ def post():
     destination_file = download_data(processing_file)
     url = 'https://handy-facts-service-ctxwxsa3aa-uc.a.run.app/house_post/'
     obj_lists = pd.read_csv(destination_file).to_dict(orient='records')
+
+    houses_for_sale_path = download_data(houses_for_sale_file)
+    
+    houses_for_sale = pd.read_csv(houses_for_sale_path)
+    data_api = pd.read_csv(destination_file)
+
+    
     
     def envio_info(obj,lista):
         obj_json = json.dumps(obj).replace('NaN', 'None').replace('true', 'True').replace('false', 'False')
@@ -69,6 +78,12 @@ def post():
     for obj in obj_lists:
         envio_info(obj,ids_problemas)
 
+
+    houses_for_sale = pd.concat(houses_for_sale, data_api, ignore_index=True)
+
+    houses_for_sale.to_csv(destination_file, index=False)
+
+    upload_data(houses_for_sale_file,destination_file)
     return ids_problemas
     
 def save_ids(**kwargs):
@@ -104,7 +119,7 @@ def save_ids(**kwargs):
 default_args = {
     'owner': owner,                   # The owner of the task.
     'depends_on_past': True,         # Task instance should not rely on the previous task's schedule to succeed.
-    'start_date': datetime.datetime(2020, 11, 5),
+    'start_date': datetime.datetime(2023, 10, 13),
     'retries': 4,  # Retry once before failing the task.
     'retry_delay': datetime.timedelta(minutes=.5),  # Time between retries
     'project_id': project,  # Cloud Composer project ID.
@@ -114,7 +129,7 @@ with DAG(nameDAG,
          default_args = default_args,
          catchup = False,  # Ver caso catchup = True
          max_active_runs = 1,
-         schedule_interval = None) as dag: # schedule_interval = None # Caso sin trigger automático | schedule_interval = "0 12 * * *" | "0,2 12 * * *"
+         schedule_interval =' 0 3 * * 0') as dag: # schedule_interval = None # Caso sin trigger automático | schedule_interval = "0 12 * * *" | "0,2 12 * * *"
 
     t_begin = DummyOperator(task_id="begin")
     
