@@ -47,7 +47,7 @@ def upload_data(file_name, destination_file): # recibe el nombre del archivo que
 def drop_columns_1():
     #descarga el archivo file_name desde el bucket
     
-    destination_file = download_data(file)
+    destination_file = download_data(processing_file)
 
     #lee el archivo csv descargado
     print(f'leyendo el archivo {processing_file}')
@@ -352,9 +352,6 @@ def unraveler_addressCountyLoc():
     df_final.dropna(subset='fips_code', inplace=True)
     #guardo el dataframe en un csv temporal
 
-    for index, row in df_final.iterrows():
-
-        pass
         
     df_final.to_csv(destination_file)
     upload_data(file, destination_file)
@@ -369,7 +366,7 @@ def unraveler_addressCountyLoc():
 default_args = {
     'owner': owner,                   # The owner of the task.
     'depends_on_past': True,         # Task instance should not rely on the previous task's schedule to succeed.
-    'start_date': datetime.datetime(2020, 11, 5),
+    'start_date': datetime.datetime(2023, 10, 13),
     'retries': 4,  # Retry once before failing the task.
     'retry_delay': datetime.timedelta(minutes=.5),  # Time between retries
     'project_id': project,  # Cloud Composer project ID.
@@ -379,7 +376,7 @@ with DAG(nameDAG,
          default_args = default_args,
          catchup = False,  # Ver caso catchup = True
          max_active_runs = 1,
-         schedule_interval = None) as dag: # schedule_interval = None # Caso sin trigger automático | schedule_interval = "0 12 * * *" | "0,2 12 * * *"
+         schedule_interval = '0 1 * * 0') as dag: # schedule_interval = None # Caso sin trigger automático | schedule_interval = "0 12 * * *" | "0,2 12 * * *"
 
     t_begin = DummyOperator(task_id="begin")
     
