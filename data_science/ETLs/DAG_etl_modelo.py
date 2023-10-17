@@ -17,7 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 bucket_name       = 'dataset_houses_for_sale'
 processing_file   = 'data_api_processing'
 file              = 'data_api.csv'
-nameDAG           = 'Prueba_etl_modelo'
+nameDAG           = 'DAG_ETL_modelo'
 project           = 'radiant-micron-400219'
 owner             = 'Adrian'
 email             = 'yuliedpro1993@gmail.com'
@@ -233,7 +233,7 @@ def add_prediction(**kwargs):
     for id in anomalous_ids:
         print(id)
         df_final.drop(id,axis=0, inplace=True)
-
+    df_final.dropna(subset='list_price', inplace=True)
 
     df_final['prediction'] = prediction
     df_final.to_csv(destination_file)
@@ -245,7 +245,7 @@ def add_prediction(**kwargs):
 default_args = {
     'owner': owner,                   # The owner of the task.
     'depends_on_past': True,         # Task instance should not rely on the previous task's schedule to succeed.
-    'start_date': datetime.datetime(2020, 11, 5),
+    'start_date': datetime.datetime(2023, 10, 13),
     'retries': 4,  # Retry once before failing the task.
     'retry_delay': datetime.timedelta(minutes=.5),  # Time between retries
     'project_id': project,  # Cloud Composer project ID.
@@ -255,7 +255,7 @@ with DAG(nameDAG,
          default_args = default_args,
          catchup = False,  # Ver caso catchup = True
          max_active_runs = 1,
-         schedule_interval = None) as dag: # schedule_interval = None # Caso sin trigger automático | schedule_interval = "0 12 * * *" | "0,2 12 * * *"
+         schedule_interval = '0 2 * * 0') as dag: # 
 
     t_begin = DummyOperator(task_id="begin")
     
